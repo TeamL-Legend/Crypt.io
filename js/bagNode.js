@@ -2,10 +2,10 @@ let bagNode = document.querySelector(`#bag`);
 bagNode.addEventListener(`click`, function () {
     let shopmenu = `<div class="shopmenu">
 <div class="textshopmenu">
-<span>Купить свои шифры: <button id="btnclose" class="btnclose"><img src="/assets/close_14112.png" width="15px"></button><br><a class="shophref" href="">Условия покупки</a></span>
+<span>Купить свои шифры: <button id="btnclose" class="btnclose"><img src="assets/close_14112.png" width="15px"></button><br><a class="shophref" href="">Условия покупки</a></span>
 </div>
 <div class="shopimg">
-<img src="/assets/123123.jpg" alt="" width="200px" height="200px">
+<img src="assets/123123.jpg" alt="" width="200px" height="200px">
 </div>
 <div class="shopbtn">
 <a class="shopsucces" href="">Подтвердите покупку</a>
