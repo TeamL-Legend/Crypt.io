@@ -29,6 +29,7 @@ body {
     border-radius: 20px;
     justify-content: center;
     gap: 3px;
+    height: 40px;
 }
 
 button {
@@ -85,12 +86,71 @@ a {
     margin-left: 10px;
 }
 
-.dtheme{
+.dtheme {
     background-color: #39404b;
     transition: 1s;
     color: #c7c3d6;
 }
 
-input{
+input {
     color: black;
+}
+
+.bag {
+    background-color: #362e2e4f;
+    width: 50px;
+    border-radius: 10px;
+    border: solid 2px #8080804b;
+}
+
+.bag:focus {
+    border: solid 4px #8080804b;
+}
+
+.shopmenu {
+    background-color: #ffffff67;
+    background-image: url(/assets/bag_16474510.png);
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    color: #39404b;
+}
+
+.textshopmenu {
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.shopimg {
+    width: 208px;
+    margin-top: 40px;
+    height: 208px;
+    justify-content: center;
+    border: solid 4px #39404b;
+    margin-left: 30%;
+    background-color: white;
+}
+
+.shopbtn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.shophref {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+}
+
+.btnclose{
+    background-color: #39404b00;
+    border: none;
 }

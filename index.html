@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/bagNode.js" defer></script>
     <script src="js/index.js" defer></script>
 </head>
 
@@ -28,6 +29,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <button id="bag" class="bag"><img src="/assets/bag_16474510.png" alt="bag" width="30px"></button>
             </div>
         </nav>
     </header>
@@ -40,11 +42,10 @@
         </div>
         <div class="theme form-switch">
             <label for="theme">Сменить тему</label>
-            <input id="theme" type="checkbox" role="switch" class="form-check-input">
+            <input id="theme" type="checkbox" role="switch" class="form-check-input"><br>
         </div>
-
         <div id="kataGEN" class="kataGEN animate_animated animate__fadeInUpBig">kataGEN</div>
-        <div class="cryptcode ">
+        <div id="cryptcode" class="cryptcode">
             <input id="value" type="text" class="form-control animate_animated animate__fadeInUpBig"
                 placeholder="Введите то что хотите зашифровать, криптовать"><br>
             <button id="btn" class="btn btn-secondary animate_animated animate__fadeInUpBig">Криптовать</button>
