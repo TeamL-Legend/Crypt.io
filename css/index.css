@@ -1,0 +1,96 @@
+body {
+    background-color: #c2b4b4;
+    margin: 0;
+}
+
+.form-control {
+    margin: auto;
+    width: 380px;
+}
+
+.cryptio {
+    text-align: center;
+    background-color: #ffffff1c;
+}
+
+.developer {
+
+    background-color: #ffffff1c;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.cryptcode {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    background-color: #ffffff1c;
+    width: 500px;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 3px;
+}
+
+button {
+    height: 40px;
+}
+
+a {
+    color: #968787;
+    text-decoration: none;
+}
+
+.kataGEN {
+    background-color: #c2b4b4;
+    display: flex;
+    font-size: 70px;
+    width: 260px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    background-color: #363636;
+    color: #d3cbcb;
+}
+
+.animate__fadeInUpBig {
+    animation-duration: 2s;
+}
+
+.results {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 50px;
+    user-select: none;
+}
+
+.name:hover {
+    text-transform: uppercase;
+}
+
+.theme {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#theme {
+    margin-left: 10px;
+}
+
+.dtheme{
+    background-color: #39404b;
+    transition: 1s;
+    color: #c7c3d6;
+}
+
+input{
+    color: black;
+}
